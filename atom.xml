@@ -6,34 +6,10 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-10-14T10:52:58.426Z</updated>
+  <updated>2023-10-14T11:23:31.327Z</updated>
   <id>http://example.com/</id>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>遗传算法</title>
-    <link href="http://example.com/2023/10/14/1/"/>
-    <id>http://example.com/2023/10/14/1/</id>
-    <published>2023-10-14T10:04:34.340Z</published>
-    <updated>2023-10-14T10:52:58.426Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="遗传算法"><a href="#遗传算法" class="headerlink" title="遗传算法"></a>遗传算法</h1><pre class="mermaid">graph LR    1[种群]    2[婚配]    3[子群]    4[变异]    5[群体]    6[竞争]    7[淘汰的群体]    1-->2    2-->3    3-->4    4-->5    5-->6    6-->1    6-->7</pre><p>1.编码</p><ul><li>二进制编码</li><li>实数编码</li><li>顺序编码</li></ul><blockquote><p>旅行商问题</p></blockquote><p>2.产生初始种群</p><ul><li>随机产生</li><li>基于反向学习优化的种群产生法</li></ul><p>3.计算个体适应度</p><p>4.选择</p><p>保证解的多样性</p><blockquote><p>轮盘选择法</p><pre class="mermaid">> pie title 种群选择"P1" : 1"P2" : 3"p3" : 5"pn" : 7</pre></blockquote><p>5.遗传操作</p><ul><li>交叉</li></ul><blockquote><p>单点交叉</p><p>多点交叉</p></blockquote><ul><li>变异</li></ul><h1 id="传统优化"><a href="#传统优化" class="headerlink" title="传统优化"></a>传统优化</h1><ul><li><p>牛顿迭代法</p></li><li><p>最速下降法</p><blockquote><p>无法并行计算</p><p>局部解</p><p>目标函数、约束函数性质</p></blockquote></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;遗传算法&quot;&gt;&lt;a href=&quot;#遗传算法&quot; class=&quot;headerlink&quot; title=&quot;遗传算法&quot;&gt;&lt;/a&gt;遗传算法&lt;/h1&gt;&lt;pre class=&quot;mermaid&quot;&gt;graph LR
-    1[种群]
-    2[婚配]
-    3[子群]
-    4</summary>
-      
-    
-    
-    
-    
-  </entry>
   
   <entry>
     <title>Self-introduction</title>
